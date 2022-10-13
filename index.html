@@ -1,20 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guessing Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Guess a number from 1 - 100</h2>
-        <input id="guess" type="text" value="Type Guess Here">
-        <br>
-        <!-- ! onclick="click" is a function -->
-        <button id="button" onclick="click()">Guess</button>
-    </div>
+   <div class="container">
+       <h2>Guess a number from 1 - 100</h2>
+
+       <input type="text" placeholder="Type Guess Here" id="guess"><br>
+       <button id="button" onclick="clickMe()">Guess</button>
+
+       <p id="message1">Please guess</p>
+   </div>
+   <script src="index.js"></script>
 </body>
-<script src="index.js"></script>
 </html>
