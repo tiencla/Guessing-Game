@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+  /* Created with https://www.css-gradient.com */
+  background: #ee4062;
+  background: -webkit-linear-gradient(bottom right, #ee4062, #64edcd);
+  background: -moz-linear-gradient(bottom right, #ee4062, #64edcd);
+  background: linear-gradient(to top left, #ee4062, #64edcd);
+}
+
+.container {
+  /* position: absolute; */
+  width: 50%;
+  background-color: white;
+  padding: 50px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input {
+  width: 160px;
+  height: 150px;
+  font-weight: 700;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 15px;
+  border: 2px solid black;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+}
+
+button {
+  width: 120px;
+  padding: 12px;
+  border-radius: 5px;
+  /* background-color: grey;   */
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-weight: 200;
+}
